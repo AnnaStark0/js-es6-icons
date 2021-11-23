@@ -131,7 +131,7 @@ for (let i = 0; i < arrayIcons.length; i++) {
 	console.log(arrayIcons[i]);
 
 	items += `<div class="box">
-	<div>  </div>
+	<div> <i class="${arrayIcons[i].family} ${arrayIcons[i].prefix}${arrayIcons[i].name}"> </i> </div>
 	<span> ${arrayIcons[i].name} </span>
 </div>`
 }
