@@ -32,3 +32,18 @@ color: dodgerblue;
 main {
     background-color: lightgrey;
 }
+
+.box {
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.fas {
+    font-size: 25px;
+}
