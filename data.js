@@ -8,7 +8,7 @@
 // N.B. :collisione: Il layout dovete farlo voi, ma potete personalizzarlo
 
 
-[
+const arrayIcons = [
 	{
 		name: 'cat',
 		prefix: 'fa-',
@@ -122,3 +122,21 @@
 		color: 'blue'
 	}
 ];
+
+
+const container = document.getElementById('container');
+
+let items = '';
+
+for (let i = 0; i < arrayIcons.length; i++) {
+	console.log(arrayIcons[i]);
+
+	items += `<div class="box">
+	<div> <i class="fas fa-cat"></i> </div>
+	<span> CAT </span>
+</div>`
+}
+
+console.log(items);
+
+container.innerHTML = items;
