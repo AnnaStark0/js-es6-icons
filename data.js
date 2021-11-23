@@ -8,8 +8,7 @@
 // N.B. :collisione: Il layout dovete farlo voi, ma potete personalizzarlo
 
 
-const arrayIcons = [
-	{
+const arrayIcons = [{
 		name: 'cat',
 		prefix: 'fa-',
 		type: 'animal',
@@ -132,8 +131,8 @@ for (let i = 0; i < arrayIcons.length; i++) {
 	console.log(arrayIcons[i]);
 
 	items += `<div class="box">
-	<div> <i class="fas fa-cat"></i> </div>
-	<span> CAT </span>
+	<div>  </div>
+	<span> ${arrayIcons[i].name} </span>
 </div>`
 }
 

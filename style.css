@@ -33,6 +33,11 @@ main {
     background-color: lightgrey;
 }
 
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .box {
     height: 50px;
     width: 100px;
